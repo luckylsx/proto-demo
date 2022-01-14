@@ -12,14 +12,14 @@ service User {
 }
 
 message UserRegisterRequest {
-    string name = 1;
-    int32 age = 2;
+    int32 name = 1;
+    string age = 2;
     repeated string like = 3;
 }
 
 message UserRegisterResponse {
     int64 id = 1;
-    int64 name = 2;
-    string age = 3;
-    string like = 4;
+    string name = 2;
+    int32 age = 3;
+    repeated string like = 4;
 }
