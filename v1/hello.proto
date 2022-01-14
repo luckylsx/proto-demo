@@ -14,7 +14,7 @@ service User {
 message UserRegisterRequest {
     string name = 1;
     int32 age = 2;
-    string like = 3;
+    int32 like = 3;
 }
 
 message UserRegisterResponse {
