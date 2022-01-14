@@ -19,7 +19,7 @@ message UserRegisterRequest {
 
 message UserRegisterResponse {
     int64 id = 1;
-    string name = 2;
-    int32 age = 3;
-    repeated string like = 4;
+    int64 name = 2;
+    string age = 3;
+    string like = 4;
 }
