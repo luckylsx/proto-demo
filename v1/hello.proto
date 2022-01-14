@@ -12,9 +12,9 @@ service User {
 }
 
 message UserRegisterRequest {
-    int32 name = 1;
-    string age = 2;
-    repeated string like = 3;
+    string name = 1;
+    int32 age = 2;
+    string like = 3;
 }
 
 message UserRegisterResponse {
