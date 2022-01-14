@@ -1,4 +1,4 @@
-module github/luckylsx/proto-demo
+module github.com/luckylsx/proto-demo
 
 go 1.16
 
