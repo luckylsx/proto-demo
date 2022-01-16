@@ -8,10 +8,10 @@ option java_package = "dev.kratos.api.helloworld.v1";
 option java_outer_classname = "HelloWorldProtoV1";
 
 service User {
-    rpc UserRegister (UserRegisterRequest) returns (UserRegisterResponse);
+    rpc UserRegister (UserRequest) returns (UserRegisterResponse);
 }
 
-message UserRegisterRequest {
+message UserRequest {
     string name = 1;
     int32 age = 2;
     int32 like = 3;
