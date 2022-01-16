@@ -15,7 +15,7 @@ message UserRequest {
     string name = 1;
     int32 age = 2;
     int32 like = 3;
-    School school = 4;
+    Detail detail = 4;
 }
 
 message UserRegisterResponse {
